@@ -1,9 +1,9 @@
-import { defineStore } from "pinia";
+import { defineStore } from 'pinia'
 
-export const  listStore = defineStore('listStore',{
-    state: ()=>{
-        return  {
-            list: ['123','456']
-        }
-    },
+export const listStore = defineStore('listStore', {
+  state: () => {
+    return {
+      list: ['123', '456']
+    }
+  }
 })
